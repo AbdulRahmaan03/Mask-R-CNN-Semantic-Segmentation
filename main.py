@@ -47,7 +47,7 @@ for j in range(len(masks)):
     score = bbox[2]
 
     if score > detection_thresh:
-        print(bbox)
+        # print(bbox)
         x1, y1, x2, y2 = (
             int(bbox[3] * W),
             int(bbox[4] * H),
